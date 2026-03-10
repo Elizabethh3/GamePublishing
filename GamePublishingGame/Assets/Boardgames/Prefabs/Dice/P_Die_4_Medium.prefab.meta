@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 96fa195e16d8d664696fd458f93ae5de
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/Dice/P_Die_4_Medium.prefab
+  uploadId: 401708

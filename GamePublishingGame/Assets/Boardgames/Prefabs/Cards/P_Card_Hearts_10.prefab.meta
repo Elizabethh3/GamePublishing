@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a2a49e78a52db7d4c8bfa09623de6f6a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/Cards/P_Card_Hearts_10.prefab
+  uploadId: 401708

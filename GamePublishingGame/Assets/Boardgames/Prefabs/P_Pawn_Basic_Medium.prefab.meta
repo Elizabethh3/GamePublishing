@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0128aa68a4326b84b8105f1048f4eb42
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/P_Pawn_Basic_Medium.prefab
+  uploadId: 401708

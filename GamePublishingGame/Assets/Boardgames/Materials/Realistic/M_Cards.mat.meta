@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b63ae1136e8f7544abd40bf5da8970e0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Materials/Realistic/M_Cards.mat
+  uploadId: 401708

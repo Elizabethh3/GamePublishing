@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cf5209423e1f1dd4eb38e091e27a4831
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/P_Tile_Square_Rounded_Thin.prefab
+  uploadId: 401708

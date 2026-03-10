@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ec2471725b2c6f7458728757b8878b7e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Materials/Realistic/M_Yellow.mat
+  uploadId: 401708

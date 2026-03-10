@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d3f0f566b6ac7db438227ab31d25971d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/P_Poker_Chip_Lo.prefab
+  uploadId: 401708

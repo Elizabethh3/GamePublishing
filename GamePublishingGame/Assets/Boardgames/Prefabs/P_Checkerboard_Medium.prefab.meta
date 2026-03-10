@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 712f748c62ab9fe4189e41f0693c4dc6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/P_Checkerboard_Medium.prefab
+  uploadId: 401708

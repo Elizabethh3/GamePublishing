@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 611907ae704e8ba49a1dba04c4dd730b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/P_Tile_Square_Thin.prefab
+  uploadId: 401708

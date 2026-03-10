@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fde2705f9c09b8242a80d241645b4a95
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/Chess/P_Chess_Bishop_Medium.prefab
+  uploadId: 401708

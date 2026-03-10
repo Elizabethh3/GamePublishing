@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4f03d5e628de2d441b19a6d9459b22fd
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/Cards/P_Card_Spades_Q.prefab
+  uploadId: 401708

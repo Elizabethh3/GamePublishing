@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f46e32c97d38f274db8d59c2d80cba3e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/P_Money_100.prefab
+  uploadId: 401708

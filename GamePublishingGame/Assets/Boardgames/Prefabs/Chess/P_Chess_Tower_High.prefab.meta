@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 53eddbb24a98c4a42a86cf0433c44f97
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/Chess/P_Chess_Tower_High.prefab
+  uploadId: 401708

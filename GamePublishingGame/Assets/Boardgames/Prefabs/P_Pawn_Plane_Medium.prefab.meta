@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6c060f42fc6c1834ca62d75e3a25dcb9
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/P_Pawn_Plane_Medium.prefab
+  uploadId: 401708

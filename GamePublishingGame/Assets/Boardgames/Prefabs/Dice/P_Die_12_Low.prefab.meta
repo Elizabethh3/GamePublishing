@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a3a2e35dc6ad34f4b9b858d3641db8be
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/Dice/P_Die_12_Low.prefab
+  uploadId: 401708

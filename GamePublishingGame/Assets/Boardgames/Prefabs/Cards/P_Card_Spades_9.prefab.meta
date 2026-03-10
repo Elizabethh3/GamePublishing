@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 80058d29507ff25409422d83fd0f571c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/Cards/P_Card_Spades_9.prefab
+  uploadId: 401708

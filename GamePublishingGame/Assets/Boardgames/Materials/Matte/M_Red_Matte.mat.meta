@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cb4e32c2125c37b4c99fd81a21e605ab
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Materials/Matte/M_Red_Matte.mat
+  uploadId: 401708

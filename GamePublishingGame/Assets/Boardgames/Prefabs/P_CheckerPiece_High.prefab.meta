@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8dffa2050e46f79459906852d2f0ded3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/P_CheckerPiece_High.prefab
+  uploadId: 401708

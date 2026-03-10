@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: faba73afd86d2f44181d9622f0a59acf
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/P_CheckerPiece_Low.prefab
+  uploadId: 401708

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d99862a470783e244bfc5873cc08863a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/Chess/P_Chess_King_Medium.prefab
+  uploadId: 401708

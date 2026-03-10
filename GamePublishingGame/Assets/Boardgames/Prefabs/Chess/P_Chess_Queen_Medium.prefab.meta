@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 339d663d644921044a9a57da7c1f1f20
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/Chess/P_Chess_Queen_Medium.prefab
+  uploadId: 401708

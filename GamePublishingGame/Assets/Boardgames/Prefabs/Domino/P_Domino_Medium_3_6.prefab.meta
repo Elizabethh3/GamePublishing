@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d120435ab44d38c4791be69376b5a377
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/Domino/P_Domino_Medium_3_6.prefab
+  uploadId: 401708

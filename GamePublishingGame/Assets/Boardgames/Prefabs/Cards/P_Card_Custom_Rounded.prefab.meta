@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 03bfbc19136db5d47863d837a509ada1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/Cards/P_Card_Custom_Rounded.prefab
+  uploadId: 401708

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b7a2e93f304ce204286448b5bb31a72f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/Cards/P_Card_Custom_Sharp.prefab
+  uploadId: 401708

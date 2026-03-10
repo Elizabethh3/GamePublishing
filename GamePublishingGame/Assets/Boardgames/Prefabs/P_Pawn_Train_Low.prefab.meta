@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8974fdad60d8e0c418d853881fc8b248
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/P_Pawn_Train_Low.prefab
+  uploadId: 401708

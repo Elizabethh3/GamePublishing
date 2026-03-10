@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 709a67ebec80fac449534caa1daa5cff
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/Chess/P_Chess_Tower_Medium.prefab
+  uploadId: 401708

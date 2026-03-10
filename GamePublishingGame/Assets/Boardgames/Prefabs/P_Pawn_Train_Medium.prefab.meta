@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 03a3e253b7f70394c91d987362be5323
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/P_Pawn_Train_Medium.prefab
+  uploadId: 401708

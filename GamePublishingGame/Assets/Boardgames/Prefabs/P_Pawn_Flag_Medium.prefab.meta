@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5ed85eb9e39e7c240aded4166e7c0b52
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/P_Pawn_Flag_Medium.prefab
+  uploadId: 401708

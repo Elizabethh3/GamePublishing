@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 87a0a34ae8d03af4e926eebe41ac733c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/Chess/P_Chess_Knight_Medium.prefab
+  uploadId: 401708

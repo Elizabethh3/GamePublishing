@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 471bca8ab30866d4eb11e804a8aa55b7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/Chess/P_Chess_Pawn_Medium.prefab
+  uploadId: 401708

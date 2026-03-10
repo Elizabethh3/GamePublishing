@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 044ec87421a47ad42a88e678200f8567
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/P_Money_500.prefab
+  uploadId: 401708

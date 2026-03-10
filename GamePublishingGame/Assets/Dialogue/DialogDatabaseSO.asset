@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b48169bd0884fc749b319087bb40a2b6, type: 3}
+  m_Name: DialogDatabaseSO
+  m_EditorClassIdentifier: Assembly-CSharp::DialogDatabaseSO
+  dialogData:
+  - id: 0
+    config: {fileID: 11400000, guid: a53c9a001e9bb0f4db7bfbaea36c9a57, type: 2}
+  - id: 1
+    config: {fileID: 11400000, guid: b53932164ba48d84a90b7942e7e5f750, type: 2}
+  - id: 2
+    config: {fileID: 11400000, guid: 3c1b9aefabcdc874c87d67755c4bd1a3, type: 2}
+  - id: 3
+    config: {fileID: 11400000, guid: edadf63694284384ca073f1c67177e95, type: 2}
+  - id: 4
+    config: {fileID: 11400000, guid: 132a9a4b22365ae41aa54869c02c23ba, type: 2}
+  - id: 5
+    config: {fileID: 11400000, guid: d58a3b27a3a04d04c8dce4035b65d63e, type: 2}
+  - id: 6
+    config: {fileID: 11400000, guid: 15662df14db68974991106fc6e1a6b34, type: 2}
+  - id: 7
+    config: {fileID: 11400000, guid: abe9ef09dee293a4bb38772eb9d18032, type: 2}
+  - id: 8
+    config: {fileID: 11400000, guid: 0dbacdb4cfed80e42b0a92eb3d3b5900, type: 2}
+  - id: 9
+    config: {fileID: 11400000, guid: 3da8ffa61a334274da0769b1aca85b40, type: 2}
+  - id: 10
+    config: {fileID: 11400000, guid: 0a6d84bba56385046a6db8e741ee29ea, type: 2}
+  - id: 11
+    config: {fileID: 11400000, guid: a8a80f931233f3d49956fb273618fb49, type: 2}
+  - id: 12
+    config: {fileID: 11400000, guid: f3642455c804eb14c957186074afc4da, type: 2}
+  - id: 13
+    config: {fileID: 11400000, guid: 9c7f93c9d3a13c64897a86eb0a5998ad, type: 2}
+  - id: 14
+    config: {fileID: 11400000, guid: 6cad28342c2383d428b5fcb5588a76f5, type: 2}
+  - id: 15
+    config: {fileID: 11400000, guid: 6920490980b664c448d12efc748cc3cd, type: 2}
+  - id: 16
+    config: {fileID: 11400000, guid: 07ebed51ba5450d4286a3acc0dad0321, type: 2}
+  - id: 17
+    config: {fileID: 11400000, guid: 066de62b356dd8e4cbefde819abaee38, type: 2}
+  - id: 18
+    config: {fileID: 11400000, guid: 77adf7a7584fa1b41a773d074e8ea393, type: 2}
+  - id: 19
+    config: {fileID: 11400000, guid: d78ff0de218624643bb88ec0eec23a43, type: 2}
+  - id: 20
+    config: {fileID: 11400000, guid: 6d288123aad751441ba231ed7d5f072c, type: 2}
+  - id: 21
+    config: {fileID: 11400000, guid: 15defbca2f8be154c9f30492ced31501, type: 2}

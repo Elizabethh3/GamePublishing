@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f103fd589aa111b4ba4f6a400f774efc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/P_Pawn_Basic_Low.prefab
+  uploadId: 401708

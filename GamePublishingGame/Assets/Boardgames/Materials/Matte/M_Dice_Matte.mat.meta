@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 228eab784d6d3b24b89124fb4a3ce454
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Materials/Matte/M_Dice_Matte.mat
+  uploadId: 401708

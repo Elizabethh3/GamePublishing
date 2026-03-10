@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b3d156cff9ce043449b3903ba3b1fc39
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/Chess/P_Chess_Queen_Low.prefab
+  uploadId: 401708

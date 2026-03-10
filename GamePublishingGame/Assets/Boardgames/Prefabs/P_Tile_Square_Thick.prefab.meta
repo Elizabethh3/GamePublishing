@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3dd5b5daf0d33c2419f82bac8b5fa039
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/P_Tile_Square_Thick.prefab
+  uploadId: 401708

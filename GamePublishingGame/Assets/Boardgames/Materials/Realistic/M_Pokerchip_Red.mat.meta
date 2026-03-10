@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c67f22f92af2ffe43a8245bd1450eb5b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Materials/Realistic/M_Pokerchip_Red.mat
+  uploadId: 401708

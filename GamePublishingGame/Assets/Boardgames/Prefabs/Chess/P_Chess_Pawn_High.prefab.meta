@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c35ace5da51fff44c924d93f017b613f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/Chess/P_Chess_Pawn_High.prefab
+  uploadId: 401708

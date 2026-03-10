@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 81ccfffa1572bff499dd0f6e37dd7500
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/Dice/P_Die_10_Medium.prefab
+  uploadId: 401708

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c473299c44336754ebb0aa0431956ccd
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/P_Table_Round_Medium.prefab
+  uploadId: 401708

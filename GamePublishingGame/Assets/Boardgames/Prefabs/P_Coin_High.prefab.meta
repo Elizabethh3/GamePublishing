@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 490b20318e333cc45b231e1ac828660c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/P_Coin_High.prefab
+  uploadId: 401708

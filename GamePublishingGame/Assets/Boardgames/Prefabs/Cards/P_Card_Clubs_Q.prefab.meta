@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b8d2ead1ae5965c44b78eb202ed1f190
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/Cards/P_Card_Clubs_Q.prefab
+  uploadId: 401708

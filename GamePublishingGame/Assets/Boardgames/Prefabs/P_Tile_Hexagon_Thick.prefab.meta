@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e016585a34579854491133794a3bcb22
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/P_Tile_Hexagon_Thick.prefab
+  uploadId: 401708

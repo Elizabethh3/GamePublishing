@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fc6939cffc9c32149b93cfc05c5db24b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183357
+  packageName: Boardgames asset pack
+  packageVersion: 1.0
+  assetPath: Assets/Boardgames/Prefabs/Chess/P_Chess_King_High.prefab
+  uploadId: 401708
