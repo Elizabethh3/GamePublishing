@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd3f26b3ee390e24d8f079152a4983cb, type: 3}
   m_Name: Line7
   m_EditorClassIdentifier: Assembly-CSharp::DialogLineSO
-  dialogLine: I would be extremely grateful if you could help me figure it out.
+  dialogLine: ...
   speakerName: Pawnerella
-  speakerPortrait: {fileID: 0}
+  speakerPortrait: {fileID: 21300000, guid: 2dbe4c2bbc3870749b674592c8d51ed1, type: 3}

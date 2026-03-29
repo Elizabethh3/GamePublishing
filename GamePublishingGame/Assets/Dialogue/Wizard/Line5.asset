@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd3f26b3ee390e24d8f079152a4983cb, type: 3}
-  m_Name: Line11
+  m_Name: Line5
   m_EditorClassIdentifier: Assembly-CSharp::DialogLineSO
-  dialogLine: 'Amazing! Thank you for helping me. '
-  speakerName: Pawnerella
+  dialogLine: First we need to find all the cards and place them in the center, talk
+    to me again when you're done
+  speakerName: Wizard
   speakerPortrait: {fileID: 0}

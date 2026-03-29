@@ -339,6 +339,12 @@ public class MastermindPuzzleLogic : MonoBehaviour
             }
             numAttempts += 1;
             arrayIndex = 0;
+            if (numAttempts > 8)
+            {
+                RandomizeSolution();
+                numAttempts = 1;
+                //clear board
+            }
         }
     }
 
@@ -601,9 +607,10 @@ public class MastermindPuzzleLogic : MonoBehaviour
     }
 
     void Win()
-    {
-        Debug.Log("WIN");
+    { 
         //return to normal game
+        Debug.Log("WIN");
+        FindAnyObjectByType<Pawnerella>().PuzzleWin();
     }
 }
 

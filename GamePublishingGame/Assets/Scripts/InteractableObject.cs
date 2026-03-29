@@ -6,6 +6,7 @@ public class InteractableObject : MonoBehaviour
     [SerializeField] InputAction interactionAction;
     [SerializeField] GameObject player;
     bool isAttached, inRange;
+    Rigidbody rigidBody;
 
     void Start()
     {
@@ -13,6 +14,7 @@ public class InteractableObject : MonoBehaviour
         interactionAction.performed += PlayerInteract;
         isAttached = false;
         inRange = false;
+        rigidBody = GetComponentInParent<Rigidbody>();
     }
 
     void PlayerInteract(InputAction.CallbackContext c)
@@ -21,12 +23,12 @@ public class InteractableObject : MonoBehaviour
         {
             if (!isAttached)
             {
-                this.transform.parent = player.transform;
+                this.transform.parent.parent = player.transform;
                 isAttached = true;
             }
             else
             {
-                this.transform.parent = null;
+                this.transform.parent.parent = null;
                 isAttached = false;
             }
             //when e is clicked, the object will connect with the player

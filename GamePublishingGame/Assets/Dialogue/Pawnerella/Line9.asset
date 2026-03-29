@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd3f26b3ee390e24d8f079152a4983cb, type: 3}
   m_Name: Line9
   m_EditorClassIdentifier: Assembly-CSharp::DialogLineSO
-  dialogLine: There are duplicate cards so a color can be used more than once.
+  dialogLine: Are you wanting a reward or something?
   speakerName: Pawnerella
-  speakerPortrait: {fileID: 0}
+  speakerPortrait: {fileID: 21300000, guid: 2dbe4c2bbc3870749b674592c8d51ed1, type: 3}

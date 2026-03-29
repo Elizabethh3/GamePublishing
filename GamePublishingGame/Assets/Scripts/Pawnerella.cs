@@ -5,10 +5,10 @@ public class Pawnerella : MonoBehaviour
 {
    
     [SerializeField] InputAction interactionAction;
-    [SerializeField] GameObject puzzleCanvas;
+    [SerializeField] GameObject puzzleCanvas, block;
     [SerializeField] Camera puzzleCam, ogCam;
     bool inRange;
-    bool talked;
+    bool talked, finishedPuzzle;
     
 
     void Start()
@@ -17,18 +17,20 @@ public class Pawnerella : MonoBehaviour
         interactionAction.performed += PlayerInteract;
         inRange = false;
         talked = false;
+        finishedPuzzle = false;
         puzzleCanvas.SetActive(false);
     }
 
     void PlayerInteract(InputAction.CallbackContext c)
     {
-        if (inRange && !talked)
+        if (inRange && !talked && !finishedPuzzle)
         {
-            FindAnyObjectByType<DialogBox>().PlayDialogue(10,19);
+            FindAnyObjectByType<DialogBox>().PlayDialogue(10,14);
             FindAnyObjectByType<GameManager>().goalText.text = "Figure out the puzzle";
             talked = true;
+            //make talked = true after dialogue is finished
         }
-        else if (inRange && talked)
+        else if (inRange && talked && !finishedPuzzle)
         {   //Go to puzzle view - change cam
             puzzleCanvas.SetActive(true);
             ogCam.enabled = false;
@@ -36,10 +38,21 @@ public class Pawnerella : MonoBehaviour
             FindAnyObjectByType<PlayerMovement>().enabled = false;
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
+            finishedPuzzle = true;
         }
-        
     }
-
+    public void PuzzleWin()
+    {
+        puzzleCanvas.SetActive(false);
+        ogCam.enabled = true;
+        puzzleCam.enabled = false;
+        FindAnyObjectByType<PlayerMovement>().enabled = true;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        FindAnyObjectByType<DialogBox>().PlayDialogue(15,19);
+        block.SetActive(true);
+        FindAnyObjectByType<GameManager>().goalText.text = "Explore";
+    }
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))

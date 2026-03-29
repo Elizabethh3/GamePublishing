@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2555771254479139693}
+  - component: {fileID: 1936526825444382940}
+  - component: {fileID: 5548394815322973510}
   m_Layer: 0
   m_Name: PurplePawn
   m_TagString: Untagged
@@ -32,6 +34,60 @@ Transform:
   - {fileID: 8151950776270802265}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1936526825444382940
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8832899647329522380}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.05
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5548394815322973510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8832899647329522380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 989d57f0036cc7a479cff744e233720d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Pawnerella
+  interactionAction:
+    m_Name: Interaction
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: f2eb5f70-e7c4-48f9-a04a-c05292faaac4
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 4ec14359-0c58-4d7b-8c2e-afe4c386bc90
+      m_Path: <Keyboard>/e
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Interaction
+      m_Flags: 0
+    m_Flags: 0
+  puzzleCanvas: {fileID: 0}
+  block: {fileID: 0}
+  puzzleCam: {fileID: 0}
+  ogCam: {fileID: 0}
 --- !u!1001 &8550987103661075122
 PrefabInstance:
   m_ObjectHideFlags: 0
