@@ -5,9 +5,11 @@ public class ButtonManager : MonoBehaviour
 {
     [SerializeField] GameObject confirmationScreen;
     [SerializeField] GameObject optionsScreen;
-    [SerializeField] GameObject pauseScreen;
+    [SerializeField] GameObject pauseScreen, titleScreen;
+    SceneLoader sceneLoader;
     void Start()
     {
+        sceneLoader = FindAnyObjectByType<SceneLoader>();
         if (confirmationScreen != null)
         {
             confirmationScreen.SetActive(false);
@@ -20,7 +22,9 @@ public class ButtonManager : MonoBehaviour
 
     public void OnClickLoad()
     {
-        SceneManager.LoadScene("GameScene");
+        sceneLoader.LoadScene(1);
+        titleScreen.SetActive(false);
+        //SceneManager.LoadScene("GameScene");
         //load save and continue game from last checkpoint
     }
 
@@ -31,7 +35,10 @@ public class ButtonManager : MonoBehaviour
 
     public void OnClickYes()
     {
-        SceneManager.LoadScene("GameScene");
+        sceneLoader.LoadScene(1);
+        titleScreen.SetActive(false);
+        confirmationScreen.SetActive(false);
+        //SceneManager.LoadScene("GameScene");
         //delete save file, reset game completely
     }
 
