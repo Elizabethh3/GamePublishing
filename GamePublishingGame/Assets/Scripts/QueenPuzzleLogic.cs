@@ -27,6 +27,5 @@ public class QueenPuzzleLogic : MonoBehaviour
         {
             FindAnyObjectByType<Queenie>().PuzzleWin();
         }
-        //check if crown is in correct spot if so, win
     }
 }

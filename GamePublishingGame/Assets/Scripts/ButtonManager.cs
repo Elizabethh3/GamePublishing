@@ -6,6 +6,7 @@ public class ButtonManager : MonoBehaviour
     [SerializeField] GameObject confirmationScreen;
     [SerializeField] GameObject optionsScreen;
     [SerializeField] GameObject pauseScreen, titleScreen;
+    [SerializeField] AudioSource buttonClick;
     SceneLoader sceneLoader;
     void Start()
     {
@@ -60,4 +61,11 @@ public class ButtonManager : MonoBehaviour
     {
         SceneManager.LoadScene("StartScreen");
     }
+
+    public void OnClickAudio()
+    {
+        buttonClick.Play();
+    }
+
+
 }

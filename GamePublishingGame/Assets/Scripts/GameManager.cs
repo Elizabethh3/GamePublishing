@@ -16,8 +16,8 @@ public class GameManager : MonoBehaviour
     {
         pauseMenu.SetActive(false);
         paused = false;
-        FindAnyObjectByType<DialogBox>().PlayDialogue(0,3);
-        goalText.text = "Remove the block off his face";
+        //FindAnyObjectByType<DialogBox>().PlayDialogue(0,3);
+        //goalText.text = "Remove the block off his face";
     }
 
     void PauseGame(InputAction.CallbackContext c)

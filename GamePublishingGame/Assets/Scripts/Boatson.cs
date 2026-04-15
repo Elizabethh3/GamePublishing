@@ -52,7 +52,6 @@ public class Boatson : MonoBehaviour
                 r.enabled = false;
             }
             StartCoroutine(TurnOffResetScreen());
-            //spawn scrabble tile
         }
     }
     private IEnumerator Wait()
@@ -63,10 +62,10 @@ public class Boatson : MonoBehaviour
     }
 
     IEnumerator TurnOffResetScreen()
-{
-    yield return new WaitForSeconds(4);
-    resetScreen.SetActive(false);
-}
+    {
+        yield return new WaitForSeconds(5);
+        resetScreen.SetActive(false);
+    }
 
     void OnTriggerEnter(Collider other)
     {
