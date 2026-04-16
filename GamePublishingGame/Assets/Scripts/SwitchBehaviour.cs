@@ -4,6 +4,7 @@ public class SwitchBehaviour : MonoBehaviour
 {
     [SerializeField] GameObject door;
     bool triggered = false;
+    [SerializeField] AudioSource switchClickAudio;
 
     void Update()
     {
@@ -26,6 +27,7 @@ public class SwitchBehaviour : MonoBehaviour
         if (other.CompareTag("Block"))
         {
             triggered = true;
+            switchClickAudio.Play();
         }
     }
 

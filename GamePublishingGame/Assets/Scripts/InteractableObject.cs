@@ -7,6 +7,7 @@ public class InteractableObject : MonoBehaviour
     [SerializeField] GameObject player;
     bool isAttached, inRange;
     Rigidbody rigidBody;
+    [SerializeField] AudioSource pickUpAudio, putDownAudio;
 
     void Start()
     {
@@ -15,21 +16,35 @@ public class InteractableObject : MonoBehaviour
         isAttached = false;
         inRange = false;
         rigidBody = GetComponentInParent<Rigidbody>();
+        AudioSource[] sources = player.GetComponents<AudioSource>();
+        foreach (AudioSource source in sources)
+        {
+            if (source.clip.name == "pickUpItem")
+            {
+                pickUpAudio = source;
+            }
+            else
+            {
+                putDownAudio = source;
+            }
+        }
     }
 
     void PlayerInteract(InputAction.CallbackContext c)
     {
         if (inRange)
         {
-            if (!isAttached)
+            if (!isAttached && gameObject.name != "Peg")
             {
                 this.transform.parent.parent = player.transform;
                 isAttached = true;
+                pickUpAudio.Play();
             }
             else
             {
                 this.transform.parent.parent = null;
                 isAttached = false;
+                putDownAudio.Play();
             }
             //when e is clicked, the object will connect with the player
             //the block will then move with the player
