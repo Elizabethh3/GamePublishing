@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogLineSO
   dialogLine: Please help me find them!
   speakerName: Scared Mom
-  speakerPortrait: {fileID: 0}
+  speakerPortrait: {fileID: 21300000, guid: 71be18831b01f6a4ab3b819a50cfc140, type: 3}

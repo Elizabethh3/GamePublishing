@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6590197976252012581
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3019467858062025889}
+  - component: {fileID: 1281497281737332240}
+  - component: {fileID: 6994636854583663495}
+  - component: {fileID: 3249401125184964414}
+  - component: {fileID: 1842429968288812125}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3019467858062025889
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6590197976252012581}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 586.82007, y: -0, z: 3903.101}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1281497281737332240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6590197976252012581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d7583f70942f964083bfe3988161f19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonManager
+  confirmationScreen: {fileID: 0}
+  optionsScreen: {fileID: 0}
+  pauseScreen: {fileID: 0}
+  titleScreen: {fileID: 0}
+--- !u!114 &6994636854583663495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6590197976252012581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1166454c1546f3458736e7cea94bdbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  pauseMenu: {fileID: 0}
+  pauseAction:
+    m_Name: Pause
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: c8caf258-18ad-4cf3-9458-3dc8c73469d1
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 414c9689-4aa6-4c3e-a7d1-563ae501cd35
+      m_Path: <Keyboard>/escape
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Pause
+      m_Flags: 0
+    m_Flags: 0
+  goalText: {fileID: 0}
+--- !u!114 &3249401125184964414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6590197976252012581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f33075d04f45b443b14ccef840b9389, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MazeManager
+  daughter1: {fileID: 0}
+  daughter1Safe: {fileID: 0}
+  daughter2: {fileID: 0}
+  daughter2Safe: {fileID: 0}
+  daughter3: {fileID: 0}
+  daughter3Safe: {fileID: 0}
+  daughter4: {fileID: 0}
+  daughter4Safe: {fileID: 0}
+  scrabbleTile: {fileID: 0}
+--- !u!114 &1842429968288812125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6590197976252012581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 219d33889b3bbad4ebe52c15f2383507, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DiceGameManager
+  playerDiceRoll: 0
+  armyDiceRoll: 0
+  playerPoints: 0
+  armyPoints: 0
+  diceGame: {fileID: 0}
+  scrabbleTile: {fileID: 0}
+  playerDice1: {fileID: 0}
+  playerDice2: {fileID: 0}
+  playerDice3: {fileID: 0}
+  playerDice4: {fileID: 0}
+  playerDice5: {fileID: 0}
+  playerDice6: {fileID: 0}
+  armyDice1: {fileID: 0}
+  armyDice2: {fileID: 0}
+  armyDice3: {fileID: 0}
+  armyDice4: {fileID: 0}
+  armyDice5: {fileID: 0}
+  armyDice6: {fileID: 0}

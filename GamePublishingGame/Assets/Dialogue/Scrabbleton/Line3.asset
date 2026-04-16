@@ -15,4 +15,4 @@ MonoBehaviour:
   dialogLine: "I don\u2019t know it personally, but there are scrabble tiles hidden
     in this pile that will make up the word. "
   speakerName: Scrabbleton
-  speakerPortrait: {fileID: 0}
+  speakerPortrait: {fileID: 21300000, guid: 748c944c8f95b8a41b311245549cd8b6, type: 3}

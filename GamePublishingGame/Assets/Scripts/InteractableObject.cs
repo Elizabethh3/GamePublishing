@@ -7,7 +7,7 @@ public class InteractableObject : MonoBehaviour
     [SerializeField] GameObject player;
     bool isAttached, inRange;
     Rigidbody rigidBody;
-    [SerializeField] AudioSource pickUpAudio, putDownAudio;
+    AudioSource pickUpItem, placeItem;
 
     void Start()
     {
@@ -16,16 +16,16 @@ public class InteractableObject : MonoBehaviour
         isAttached = false;
         inRange = false;
         rigidBody = GetComponentInParent<Rigidbody>();
-        AudioSource[] sources = player.GetComponents<AudioSource>();
-        foreach (AudioSource source in sources)
+        AudioSource[] audioSources = player.GetComponents<AudioSource>();
+        foreach (AudioSource audioSource in audioSources)
         {
-            if (source.clip.name == "pickUpItem")
+            if (audioSource.clip.name == "pickUpItem")
             {
-                pickUpAudio = source;
+                pickUpItem = audioSource;
             }
             else
             {
-                putDownAudio = source;
+                placeItem = audioSource;
             }
         }
     }
@@ -34,17 +34,17 @@ public class InteractableObject : MonoBehaviour
     {
         if (inRange)
         {
-            if (!isAttached && gameObject.name != "Peg")
+            if (!isAttached)
             {
                 this.transform.parent.parent = player.transform;
                 isAttached = true;
-                pickUpAudio.Play();
+                pickUpItem.Play();
             }
             else
             {
                 this.transform.parent.parent = null;
                 isAttached = false;
-                putDownAudio.Play();
+                placeItem.Play();
             }
             //when e is clicked, the object will connect with the player
             //the block will then move with the player
@@ -58,6 +58,11 @@ public class InteractableObject : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             inRange = true;
+        }
+
+        if (other.CompareTag("Player") && this.gameObject.tag == "Daughter")
+        {
+            this.gameObject.SetActive(false);
         }
     }
     void OnTriggerExit(Collider other)
