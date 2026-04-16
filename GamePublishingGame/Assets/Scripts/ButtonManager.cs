@@ -6,7 +6,7 @@ public class ButtonManager : MonoBehaviour
     [SerializeField] GameObject confirmationScreen;
     [SerializeField] GameObject optionsScreen;
     [SerializeField] GameObject pauseScreen, titleScreen;
-    [SerializeField] AudioSource buttonClick;
+    [SerializeField] AudioSource buttonClick, titleMusic;
     SceneLoader sceneLoader;
     void Start()
     {
@@ -25,6 +25,7 @@ public class ButtonManager : MonoBehaviour
     {
         sceneLoader.LoadScene(1);
         titleScreen.SetActive(false);
+        titleMusic.Stop();
         //SceneManager.LoadScene("GameScene");
         //load save and continue game from last checkpoint
     }
@@ -39,6 +40,7 @@ public class ButtonManager : MonoBehaviour
         sceneLoader.LoadScene(1);
         titleScreen.SetActive(false);
         confirmationScreen.SetActive(false);
+        titleMusic.Stop();
         //SceneManager.LoadScene("GameScene");
         //delete save file, reset game completely
     }
@@ -60,6 +62,7 @@ public class ButtonManager : MonoBehaviour
     public void OnClickReturn()
     {
         SceneManager.LoadScene("StartScreen");
+        titleMusic.Play();
     }
 
     public void OnClickAudio()

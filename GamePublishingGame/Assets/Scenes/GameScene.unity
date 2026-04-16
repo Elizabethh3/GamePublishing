@@ -35215,6 +35215,7 @@ MonoBehaviour:
   pauseScreen: {fileID: 27519943}
   titleScreen: {fileID: 0}
   buttonClick: {fileID: 1718257581}
+  titleMusic: {fileID: 0}
 --- !u!4 &1718257579
 Transform:
   m_ObjectHideFlags: 0
@@ -35371,7 +35372,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 77f7cbf53fa00974fa640dbfc3ea016e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.198
+  m_Volume: 0.057
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -38421,7 +38422,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1845170565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47414,6 +47415,14 @@ PrefabInstance:
       value: PenguinPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 3740059578720162641, guid: ef1c593a36a2cc3499c45a120fb5c31f, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5685990114314960354, guid: ef1c593a36a2cc3499c45a120fb5c31f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674202748800923224, guid: ef1c593a36a2cc3499c45a120fb5c31f, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}

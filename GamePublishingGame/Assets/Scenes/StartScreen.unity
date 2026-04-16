@@ -370,6 +370,7 @@ MonoBehaviour:
   pauseScreen: {fileID: 0}
   titleScreen: {fileID: 205770985}
   buttonClick: {fileID: 226022176}
+  titleMusic: {fileID: 1998236643}
 --- !u!4 &226022175
 Transform:
   m_ObjectHideFlags: 0
