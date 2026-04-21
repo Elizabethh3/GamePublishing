@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogLineSO
   dialogLine: I sssssee you have thossssse tilesssss
   speakerName: Snake
-  speakerPortrait: {fileID: 0}
+  speakerPortrait: {fileID: 21300000, guid: be72cc5feaba81947b0a83248ab45b24, type: 3}

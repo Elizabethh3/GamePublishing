@@ -41091,8 +41091,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000038147, y: -39}
-  m_SizeDelta: {x: 642.692, y: 31.2124}
+  m_AnchoredPosition: {x: -0.0000054361, y: -35}
+  m_SizeDelta: {x: 569.6755, y: 31.2124}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1963428849
 MonoBehaviour:
@@ -41114,7 +41114,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mr. Capitalism, Scrabbleton and Snake art by Claire Spiess
+  m_text: Mr. Capitalism and Scrabbleton art by Claire Spiess
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d75af59b6479e384ba4d00652ab2e8c3, type: 2}
   m_sharedMaterial: {fileID: 1537468155575091431, guid: d75af59b6479e384ba4d00652ab2e8c3, type: 2}
