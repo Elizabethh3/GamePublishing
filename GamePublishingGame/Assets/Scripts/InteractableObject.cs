@@ -34,13 +34,13 @@ public class InteractableObject : MonoBehaviour
     {
         if (inRange)
         {
-            if (!isAttached)
+            if (!isAttached && this.gameObject.tag != "Daughter" )
             {
                 this.transform.parent.parent = player.transform;
                 isAttached = true;
                 pickUpItem.Play();
             }
-            else
+            else if (isAttached && this.gameObject.tag != "Daughter")
             {
                 this.transform.parent.parent = null;
                 isAttached = false;
@@ -55,6 +55,7 @@ public class InteractableObject : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+       
         if (other.CompareTag("Player"))
         {
             inRange = true;
